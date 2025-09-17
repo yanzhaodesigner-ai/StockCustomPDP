@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paradym Driver Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header"><div class="container header-bar"><div class="logo">DICK'S</div><form class="search" role="search"><input type="search" placeholder="Search" /><button>Search</button></form><nav class="utility-nav"><a href="#">Stores</a><a href="#">Account</a><a href="#">Cart (0)</a></nav></div></header>
+    <main class="container page">
+      <nav class="breadcrumbs"><a href="#">Home</a> / <a href="#">Golf</a> / <a href="#">Drivers</a> / <span>Callaway PARADYM Driver</span></nav>
+      <section class="product">
+        <div class="gallery">
+          <div class="gallery-rail">
+            <button class="rail-btn prev" data-dir="-1">❮</button>
+            <div class="rail">
+              <img class="active" src="https://images.unsplash.com/photo-1587174486073-9e7d5b9556f8?q=80&w=1200&auto=format&fit=crop" alt="" />
+              <img src="https://images.unsplash.com/photo-1606904826268-4d1a2e3c2e0b?q=80&w=1200&auto=format&fit=crop" alt="" />
+              <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="" />
+              <img src="https://images.unsplash.com/photo-1599058918143-2526a6d7dd7f?q=80&w=1200&auto=format&fit=crop" alt="" />
+            </div>
+            <button class="rail-btn next" data-dir="1">❯</button>
+          </div>
+          <div class="thumbs">
+            <button class="thumb active" data-index="0"><img src="https://images.unsplash.com/photo-1587174486073-9e7d5b9556f8?q=80&w=200&auto=format&fit=crop" /></button>
+            <button class="thumb" data-index="1"><img src="https://images.unsplash.com/photo-1606904826268-4d1a2e3c2e0b?q=80&w=200&auto=format&fit=crop" /></button>
+            <button class="thumb" data-index="2"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=200&auto=format&fit=crop" /></button>
+            <button class="thumb" data-index="3"><img src="https://images.unsplash.com/photo-1599058918143-2526a6d7dd7f?q=80&w=200&auto=format&fit=crop" /></button>
+          </div>
+        </div>
+        <div class="info">
+          <h1 class="title">Callaway PARADYM Driver</h1>
+          <div class="meta"><span class="stars">★★★★★</span><a class="reviews-link" href="#reviews">(248) Read reviews</a></div>
+          <div class="price-row"><div class="price"><span class="current">$299.99</span><span class="was">Was $599.99</span></div><div class="promo">Save 50%</div></div>
+          <form class="buybox" id="buybox">
+            <div class="option"><label>Hand</label><div class="segmented">
+              <input type="radio" id="hand-right" name="hand" value="Right" checked /><label for="hand-right">Right</label>
+              <input type="radio" id="hand-left" name="hand" value="Left" /><label for="hand-left">Left</label>
+            </div></div>
+            <div class="option"><label>Loft</label><select name="loft"><option>9.0°</option><option selected>10.5°</option><option>12.0°</option></select></div>
+            <div class="option"><label>Shaft Flex</label><select name="shaft"><option>Regular</option><option selected>Stiff</option><option>Senior</option><option>Extra Stiff</option></select></div>
+            <div class="cta-row"><button type="submit" class="btn primary">Add to Cart</button><button type="button" class="btn outline">Pick Up In Store</button></div>
+            <p class="small muted">Free shipping on orders over $65. Free returns.</p>
+          </form>
+          <section class="highlights"><h2>Highlights</h2><ul><li>360° Carbon Chassis</li><li>Jailbreak A.I. speed frame</li><li>A.I. optimized face</li><li>Adjustable weighting</li></ul></section>
+        </div>
+      </section>
+      <section class="details"><div class="accordion" data-accordion>
+        <button class="accordion-header" aria-expanded="true">About This Item</button>
+        <div class="accordion-panel open"><p>Paradym driver with exceptional distance and forgiveness.</p></div>
+        <button class="accordion-header" aria-expanded="false">Specifications</button>
+        <div class="accordion-panel"><div class="spec-grid"><div><div class="spec-label">Head Size</div><div class="spec-value">460cc</div></div><div><div class="spec-label">Lie</div><div class="spec-value">57°</div></div></div></div>
+        <button class="accordion-header" aria-expanded="false">Shipping & Returns</button>
+        <div class="accordion-panel"><p>Free shipping over $65. 90-day returns.</p></div>
+      </div></section>
+      <section class="carousel-section"><h2>Complete the Set</h2><div class="carousel" data-carousel>
+        <button class="c-btn prev">❮</button>
+        <div class="c-track">
+          <a class="card" href="#"><img src="https://images.unsplash.com/photo-1603201667141-227bd7d5f9ae?q=80&w=600&auto=format&fit=crop" /><div class="card-title">Fairway Wood</div><div class="card-price">$249.99</div></a>
+          <a class="card" href="#"><img src="https://images.unsplash.com/photo-1565207930204-f5c999f1f5b6?q=80&w=600&auto=format&fit=crop" /><div class="card-title">Hybrid</div><div class="card-price">$229.99</div></a>
+          <a class="card" href="#"><img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=600&auto=format&fit=crop" /><div class="card-title">Iron Set</div><div class="card-price">$1099.99</div></a>
+        </div>
+        <button class="c-btn next">❯</button>
+      </div></section>
+      <section id="reviews" class="reviews"><h2>Reviews</h2><div class="reviews-grid"><article class="review"><div class="review-head"><div class="stars">★★★★★</div><div class="author">ScratchGolfer</div></div><h3>Added 15 yards</h3><p>Higher launch with less spin.</p></article></div></section>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><div><h4>Customer Service</h4><ul><li><a href="#">Order Status</a></li></ul></div><div><h4>About Us</h4><ul><li><a href="#">Careers</a></li></ul></div><div><h4>Stay in the loop</h4><form class="newsletter"><input type="email" placeholder="Email" /><button>Subscribe</button></form></div></div><div class="container copyright">© 2025 Demo</div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

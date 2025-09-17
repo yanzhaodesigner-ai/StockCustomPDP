@@ -1,0 +1,25 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve -l ${PORT:-8000} .",
+    "dev": "serve -l 8000 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanzhaodesigner-ai/StockCustomPDP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanzhaodesigner-ai/StockCustomPDP/issues"
+  },
+  "homepage": "https://github.com/yanzhaodesigner-ai/StockCustomPDP#readme",
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
